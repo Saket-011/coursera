@@ -1,48 +1,24 @@
-*{
-	margin: 0;
-	padding: 0;
-	
-}
-.navbar{
-
-border: none;
-background-color: rgb(69, 7, 7);
-color: #f4e1e8;
-}
-body{
-	background-color: #eca0bc;
-	color: white;
-}
-.glyphicon{
-	font-size: 30px;
-	color:#e08aa9; 
-}
-
-.center{
-	width: 90%;
-	background-color: rgb(94, 3, 21);
-
-}
-.container
-{
-	background-color: rgb(128, 6, 16);
-}
-.text-center{
-	font-size: 50px;
+h1{
+    height: 100px;
+    background-color: rgb(240, 240, 178);
     color: black;
-    font-weight: 700;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
 }
-
-h2{
-	text-align: center;
-}
-#myNavbar ul li a {
-	color: #61122F;
-}
-.navbar-brand{
-font-size: 30px;
-color: white;
-display: flex;
-justify-content: center;
-align-items: center;	
+p{
+    background-color: rgb(202, 202, 66);
+    color: black;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    transition: ease-in-out;
+   
+    transition-duration: 3s;
+    transition-delay: 1s;
+    
 }
